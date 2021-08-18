@@ -1,7 +1,8 @@
 POST http://localhost:3001/api/notes
 Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Il9nYXN0b25hbHRhbWlW5vIiwiaWQiOiI2MGNhYTg3ZWU5MjkwNzQ3NDg3NmQ0MjIiLCJpYXQiOjE2MjQ0OTgyNjZ9.h1h9BBRV31HFxNfYoXp2QvYGMnRaol28hbHBnCZMCes
 
 {
-    "content": "Gasssti",
-    "important": false
+  "content": "first note with token",
+  "important": false
 }
